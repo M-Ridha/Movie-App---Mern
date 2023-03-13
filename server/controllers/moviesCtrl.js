@@ -66,7 +66,7 @@ const moviesCtrl = {
             console.log(err)
             res.status(500).json({error : true , message:"internal Server Error"})
         }
-    },
+    }
 }
 
 //this piece of code to add movies data from '/config/movies.json' to dataBase
